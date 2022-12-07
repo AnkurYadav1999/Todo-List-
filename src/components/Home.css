@@ -1,0 +1,82 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 40%;
+    height: 200px;
+    /* background-color: #3581B8; */
+    background-color: #08A045;
+    min-height: 300px;
+    margin: 30px 20px;
+    border-radius: 15px;
+    padding:30px 60px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 1px rgba(11,43,3,0.8);
+}
+
+.container h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+   padding: 5px 10px;
+   height: 40px;
+   width: 350px;
+   border:none;
+   border-radius: 5px;
+   margin: 10px;
+   outline:none;
+   font-weight: 500;
+}
+
+form textarea{
+   padding: 5px 10px;
+   height: 70px;
+   width: 350px;
+   border: none;
+   border-radius: 5px;
+   resize: none;
+   outline: none;
+   font-weight: 500;
+}
+
+form button{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+    padding: 10px 20px;
+    margin: 15px 10px 10px 10px;
+    font-weight: 700;
+}
+
+form button:disabled{
+    cursor:not-allowed;
+    background-color: grey;
+    color: darkgray;
+}
+
+.task-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    background-color: #08A045;
+    width: 70%;
+    border-radius: 20px;
+    margin: 30px 20px;
+    box-shadow: 7px 7px 1px rgba(11,43,3,0.8);
+}

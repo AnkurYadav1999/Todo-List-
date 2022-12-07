@@ -1,0 +1,39 @@
+.task{
+    box-sizing: border-box;
+    width: 250px;
+    background-color: #EBE9E9;
+    border-radius: 20px;
+    text-align: center;
+    margin:20px 0;
+    padding: 10px 10px;
+    box-shadow: 8px 8px 1px rgba(11, 43, 3, 0.8);
+}
+
+.task p{
+    text-align:left;
+    margin-top: 5px;
+}
+
+.remove-task{
+    background-color: red;
+    padding:5px 10px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 35px;
+    border: none;
+    cursor:pointer;
+    position: relative;
+}
+
+.extra-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.extra-info h5{
+    position: relative;
+    top: 9px;
+    color: rgb(136, 136, 136);
+}
